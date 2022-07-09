@@ -2,7 +2,8 @@
 
 h1 {
     font-family: var(--header-text);
-    font-size: 3em;
+    font-weight: 400;
+    font-size: 4em;
     text-transform: uppercase;
     color: var(--header-color);
     letter-spacing: 2px;
