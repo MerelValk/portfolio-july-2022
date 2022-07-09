@@ -1,0 +1,16 @@
+@import "./theme.css";
+
+h1 {
+    font-family: var(--header-text);
+    font-size: 3em;
+    text-transform: uppercase;
+    color: var(--header-color);
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: var(--main-text);
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 0;
+}
