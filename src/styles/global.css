@@ -3,15 +3,23 @@
 h1 {
     font-family: var(--header-text);
     font-weight: 400;
-    font-size: 4em;
+    font-size: calc(40px  +  10  * ((100vw -  767px ) / 623 ));
     text-transform: uppercase;
     color: var(--header-color);
     letter-spacing: 2px;
 }
 
-p {
+h2 {
     font-family: var(--main-text);
+    font-weight: 400;
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 15px;
     margin: 0;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 767px) {
+    h2 {
+        font-size: calc(15px  +  3  * ((100vw -  767px ) / 623 ));
+    }
 }
