@@ -8,8 +8,8 @@ export default function Header() {
         <div className={style.leftContainer}>
           <div>
             <h1>Merel van der Valk.</h1>
-            <h2>PRODUCT OWNER, DESIGNER &</h2>
-            <h2>SOFTWARE DEVELOPER</h2>
+            <p className={style.headerSubtitle}>PRODUCT OWNER, DESIGNER &</p>
+            <p className={style.headerSubtitle}>SOFTWARE DEVELOPER</p>
           </div>
           <a className={style.arrowButton}>
             <Arrow className={style.arrowIcon} />
