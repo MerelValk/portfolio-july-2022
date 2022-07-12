@@ -7,10 +7,10 @@ export default function Navbar() {
         <div className={style.navContainer}>
           <input type="checkbox" id="check" className={style.checkbox}/>
           <div className={style.nav}>
-            <li className={style.menuItem}><a>Home</a></li>
-            <li className={style.menuItem}><a>About</a></li>
-            <li className={style.menuItem}><a>Portfolio</a></li>
-            <li className={style.menuItem}><a>Contact</a></li>
+            <li className={style.menuItem}><a href="/">Home</a></li>
+            <li className={style.menuItem}><a href="/">About</a></li>
+            <li className={style.menuItem}><a href="/">Portfolio</a></li>
+            <li className={style.menuItem}><a href="/">Contact</a></li>
           </div>
 
           <label className={style.hamburgerLines}>
